@@ -324,15 +324,13 @@ span.stun{color:#ffe08e}
 <!-- ════ INVENTORY ════ -->
 <div id="s-inventory" class="screen">
   <div class="hud" id="inv-hud"></div>
-  <div class="inv-tabs" id="inv-tabs">
-    <div class="itab active" onclick="showInvTab('items')">Objetos</div>
-    <div class="itab" onclick="showInvTab('equip')">Equipo</div>
-    <div class="itab" onclick="showInvTab('stats')">Stats</div>
-    <div class="itab" onclick="showInvTab('craft')">Crafteo</div>
+
+  <div style="padding:8px;background:#111;border-bottom:1px solid #333;">
+    <button onclick="showScreen('game')"
+      style="width:100%;padding:10px;border:none;border-radius:6px;background:#444;color:white;">
+      ⬅ Volver al juego
+    </button>
   </div>
-  <div class="inv-panel" id="inv-panel"></div>
-  <div class="bnav" id="inv-bnav"></div>
-</div>
 
 <!-- ════ SKILLS ════ -->
 <div id="s-skills" class="screen">
